@@ -20,7 +20,7 @@ param enableNoSQLFullTextSearch bool = false
 @description('Disables key-based authentication. Defaults to false.')
 param disableKeyBasedAuth bool = false
 
-resource account 'Microsoft.DocumentDB/databaseAccounts@2024-05-15' = {
+resource account 'Microsoft.DocumentDB/databaseAccounts@2024-11-15' = {
   name: name
   location: location
   tags: tags
